@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://com.ubs.gms.practice/HelloWorldResponse" 
+	xmlns:tns="http://com.ubs.gms.practice/HelloWorldResponse" 
+	elementFormDefault="qualified">
+    <element name="helloWorld_Response">
+    	<complexType>
+    		<sequence>
+    			<element id="greetings" name="greetings" maxOccurs="1"
+    				minOccurs="1" />
+    			</sequence>
+    	</complexType>
+    </element>
+</schema>

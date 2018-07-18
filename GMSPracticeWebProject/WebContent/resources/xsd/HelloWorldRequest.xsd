@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://com.ubs.gms.practice/HelloWorldRequest" 
+	xmlns:tns="http://com.ubs.gms.practice/HelloWorldRequest" 
+	elementFormDefault="qualified">
+    <element name="helloWorld_Request">
+    	<complexType>
+    		<sequence>
+    			<element id="name" name="name" maxOccurs="1"
+    				minOccurs="1" />
+    			<element id="gender" name="gender" maxOccurs="1"
+    				minOccurs="1" />
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>
